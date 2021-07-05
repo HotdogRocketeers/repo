@@ -1,0 +1,100 @@
+[
+	{
+		"inputs": [],
+		"name": "coinToken",
+		"outputs": [
+			{
+				"internalType": "contract HotdogRocketGeneratedToken",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "_name",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "_symbol",
+				"type": "string"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_decimals",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_supply",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_reflectionFee",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_burnFee",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_charityFee",
+				"type": "uint256"
+			},
+			{
+				"internalType": "address",
+				"name": "_charityAddress",
+				"type": "address"
+			},
+			{
+				"internalType": "address",
+				"name": "tokenCreator",
+				"type": "address"
+			},
+			{
+				"internalType": "uint16",
+				"name": "_maxTransferAmountRate",
+				"type": "uint16"
+			}
+		],
+		"name": "createDecryptinZToken",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "deposit",
+		"outputs": [],
+		"stateMutability": "payable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "owner",
+		"outputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "withdrawETH",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	}
+]

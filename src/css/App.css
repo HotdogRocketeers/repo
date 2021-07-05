@@ -1,0 +1,66 @@
+.navbar{
+background-color:rgb(34, 33, 36);
+overflow:hidden;
+position: fixed;
+width: 100%;
+top:0;
+}
+
+
+
+.navLinks{
+ 
+padding-right: 210px;
+}
+
+.navAccountInfo{
+  float:right;
+  
+
+}
+.topnav{
+    display: block;
+  padding-right: 10px;
+  text-align: center;
+  
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+
+    padding: 5px 15px;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    
+  
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    color:white;
+    background-color:#f0b90b;
+    transition: all ease-in-out 0.25s;
+    border-radius: 20px;
+
+ 
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+#account{
+    color:gold;
+    font-size: medium;
+    text-align: center;
+}
+
+#ChainName{
+
+    color:rgb(247, 246, 241);
+    font-size: medium;
+   padding-left:50px;
+}
